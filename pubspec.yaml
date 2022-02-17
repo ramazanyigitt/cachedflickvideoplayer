@@ -1,0 +1,22 @@
+name: cachedflickvideoplayer
+description: cachedflickvideoplayer is a video player for flutter. It combines the codes of the plugins flick_video_player and cached_video_player to have a control panel and a caching of the played videos.
+version: 0.1.0
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # video_player: ^0.10.8+1
+  cached_video_player: ^1.0.3
+  provider: ^4.0.5
+  wakelock: ^0.1.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
